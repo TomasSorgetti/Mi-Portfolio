@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section1 {
+  background-image: url(../assent/img/citybg2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .neon_title {
+  color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vh;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.section1 .neon_title span {
+  -webkit-animation: animate 3s linear infinite;
+          animation: animate 3s linear infinite;
+  -webkit-animation-delay: calc(0.1s *var(--i));
+          animation-delay: calc(0.1s *var(--i));
+}
+
+@-webkit-keyframes animate {
+  0% {
+    color: #fff;
+    -webkit-filter: blur(2px) hue-rotate(0deg);
+            filter: blur(2px) hue-rotate(0deg);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+  }
+  30%, 70% {
+    color: #fff;
+    -webkit-filter: blur(2px) hue-rotate(360deg);
+            filter: blur(2px) hue-rotate(360deg);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+  }
+  100% {
+    color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-filter: blur(2px) hue-rotate(0deg);
+            filter: blur(2px) hue-rotate(0deg);
+  }
+}
+
+@keyframes animate {
+  0% {
+    color: #fff;
+    -webkit-filter: blur(2px) hue-rotate(0deg);
+            filter: blur(2px) hue-rotate(0deg);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+  }
+  30%, 70% {
+    color: #fff;
+    -webkit-filter: blur(2px) hue-rotate(360deg);
+            filter: blur(2px) hue-rotate(360deg);
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff, 0 0 300px #00b3ff, 0 0 400px #00b3ff;
+  }
+  100% {
+    color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-filter: blur(2px) hue-rotate(0deg);
+            filter: blur(2px) hue-rotate(0deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
